@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html, body {
+    overflow-x: hidden;
+}
+
+#image-div {
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+  
+#image {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    display: block;
+    margin: auto;
+}
+
+#firstPageDiv h1, #firstPageDiv h2 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+#title {
+    position: absolute;
+    bottom: 32vw;
+    right: 20vw;
+    font-size: 5vw;
+}
+
+#quote {
+    position: absolute;
+    bottom: 28vw;
+    right: 0.3vw;
+    font-size: 2.4vw;
+    
+}
+
+#introduction {
+    background-color: #F5F5F5;
+    width: 100vw;
+    height: 25vw;
+    max-height: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#introductionText {
+    color: #222222;
+    padding: auto;
+    font-size: 1.8vw;
+    width: 50vw;
+}
+
+#timelineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+}
+
+.timelineItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dotStart {
+    width: 4vw;
+    height: 4vw;
+    border: 0.65vw solid black;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.dot {
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: 10px;
+    background-color: #222222;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.line {
+    border-left: 0.6vw solid #222222;
+    height: 35vw;
+  }
+
